@@ -1,6 +1,7 @@
 package com.bl.BinarySearchTree;
 
 public class MyBinaryNode<K extends Comparable<K>> {
+
 	K key;
 	MyBinaryNode<K> left;
 	MyBinaryNode<K> right;
@@ -26,5 +27,3 @@ public class MyBinaryNode<K extends Comparable<K>> {
 	}
 	
 }
-
-
