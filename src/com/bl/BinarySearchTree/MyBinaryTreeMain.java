@@ -1,10 +1,15 @@
 package com.bl.BinarySearchTree;
+/**
+ * 
+ * @author Shivaji
+ *
+ */
 
 public class MyBinaryTreeMain {
-public static void main(String[] args) {
-		
+	public static void main(String[] args) {
+
 		System.out.println("------ Welcome to Data Structure : Binary Search Tree ------");
-		
+
 		MyBinaryTree<Integer> myBinaryTree = new MyBinaryTree<Integer>();
 		myBinaryTree.add(56);
 		myBinaryTree.add(30);
@@ -19,12 +24,13 @@ public static void main(String[] args) {
 		myBinaryTree.add(16);
 		myBinaryTree.add(63);
 		myBinaryTree.add(67);
-		
+
 		myBinaryTree.printBinaryTree();
-		System.out.println("The Size of the Binary Tree is : "+myBinaryTree.getSize());
+		System.out.println("The Size of the Binary Tree is : " + myBinaryTree.getSize());
+
+		System.out.println("Is 63 present in the Binary Search Tree? " + myBinaryTree.searchTree(63));
 
 	}
 
 }
-
 
